@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Windows Brute Force Attack</title>
+    <link href="css/windows-login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main id="main1">
+        <img id="imageOne" src="img/stick-man.png" alt="imageOne" />
+
+        <div id="loginBox">
+            <form id="userLogin">
+                <fieldset>
+                    <label id="userNameBox">
+                        <input id="userNameInput" name="userName" type="textbox" placeholder="Username" />
+                    </label>
+                    <label id="passwordBox">
+                        <input name="passwordGuess" type="password" placeholder="Password" />
+                        <p id="passwordTextBox"></p>
+                    </label>
+                    <input id="loginButton" type="submit" value="Login"></input>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer id="footer3">
+        <h6>Microsoft Windows 10 &copy; </h6>
+        <div id="controlBox">
+            <form id='uuidParamDataEntry'>
+                <fieldset id='uuidInputAnchor'>
+                    <label>Scenario Controls: </label>
+                    <input name="uuidUserName" type="textbox" placeholder="UUID Username" />
+                    <input name="uuidPassword" type="password" placeholder="UUID Password" />
+                    <input id='injectionButton' type="submit" value="Apply to URL"></input>
+                </fieldset>
+            </form>
+            <button id='resetButton'>
+                <p>Page Reset</p>
+            </button>
+        </div>
+    </footer>
+    <script src="js/windows.js" type="text/javascript"></script>
+</body>
+
+</html>
